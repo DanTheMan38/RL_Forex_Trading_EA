@@ -1,4 +1,4 @@
-# RL_Forex_Trading_EA
+# RL Forex Trading EA
 
 A Forex trading expert advisor (EA) powered by reinforcement learning for automated trading.
 
