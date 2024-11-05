@@ -59,7 +59,7 @@ def objective(trial):
     )
 
     # Train the model
-    model.learn(total_timesteps=100000, callback=eval_callback)
+    model.learn(total_timesteps=50000, callback=eval_callback)
 
     # Retrieve evaluation results
     mean_reward = eval_callback.best_mean_reward
@@ -68,7 +68,7 @@ def objective(trial):
 
 if __name__ == '__main__':
     study = optuna.create_study(direction='minimize')
-    study.optimize(objective, n_trials=20)
+    study.optimize(objective, n_trials=5)
 
     print("Best hyperparameters:", study.best_params)
 

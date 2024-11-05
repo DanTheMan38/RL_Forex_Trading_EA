@@ -1,0 +1,9 @@
+Python 3.7+
+pandas
+numpy
+scikit-learn
+ta
+gymnasium
+stable-baselines3
+optuna
+matplotlib
