@@ -6,7 +6,7 @@ A Forex trading expert advisor (EA) powered by reinforcement learning for automa
 
 This project is a custom OpenAI Gym environment for Forex trading that allows multiple positions and enforces specific closing rules, with margin and leverage considerations. The environment is designed to train a reinforcement learning agent to trade in the Forex market using historical data.
 
-**Note**: This project is still under development (approximately 80% complete).
+**Note**: While this project demonstrates the application of reinforcement learning in Forex trading, I have decided to pause its development. The Forex market's unpredictable nature poses challenges for creating a reliable system, and I am now focusing on other machine learning projects with more predictable and impactful outcomes.
 
 ## Features
 
